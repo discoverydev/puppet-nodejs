@@ -10,7 +10,7 @@
 class nodejs::nodenv(
   $ensure  = $nodejs::nodenv::ensure,
   $prefix  = $nodejs::nodenv::prefix,
-  $user    = $nodejs::nodenv::user,
+  $user    = "ga-mlsdiscovery",
   $plugins = {}
 ) {
 
